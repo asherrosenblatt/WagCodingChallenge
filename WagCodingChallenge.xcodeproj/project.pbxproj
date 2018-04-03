@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0E6E1E207413C9002C555E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E1D207413C9002C555E /* AppDelegate.m */; };
+		BA0E6E21207413C9002C555E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E20207413C9002C555E /* ViewController.m */; };
+		BA0E6E24207413C9002C555E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0E6E22207413C9002C555E /* Main.storyboard */; };
+		BA0E6E27207413C9002C555E /* WagCodingChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E25207413C9002C555E /* WagCodingChallenge.xcdatamodeld */; };
+		BA0E6E29207413CA002C555E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0E6E28207413CA002C555E /* Assets.xcassets */; };
+		BA0E6E2C207413CA002C555E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0E6E2A207413CA002C555E /* LaunchScreen.storyboard */; };
+		BA0E6E2F207413CA002C555E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E2E207413CA002C555E /* main.m */; };
+		BA0E6E39207413CA002C555E /* WagCodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E38207413CA002C555E /* WagCodingChallengeTests.m */; };
+		BA0E6E44207413CA002C555E /* WagCodingChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E43207413CA002C555E /* WagCodingChallengeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA0E6E35207413CA002C555E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0E6E11207413C9002C555E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0E6E18207413C9002C555E;
+			remoteInfo = WagCodingChallenge;
+		};
+		BA0E6E40207413CA002C555E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0E6E11207413C9002C555E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0E6E18207413C9002C555E;
+			remoteInfo = WagCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA0E6E19207413C9002C555E /* WagCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WagCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0E6E1C207413C9002C555E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA0E6E1D207413C9002C555E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA0E6E1F207413C9002C555E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA0E6E20207413C9002C555E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA0E6E23207413C9002C555E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA0E6E26207413C9002C555E /* WagCodingChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WagCodingChallenge.xcdatamodel; sourceTree = "<group>"; };
+		BA0E6E28207413CA002C555E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA0E6E2B207413CA002C555E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA0E6E2D207413CA002C555E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0E6E2E207413CA002C555E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA0E6E34207413CA002C555E /* WagCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0E6E38207413CA002C555E /* WagCodingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WagCodingChallengeTests.m; sourceTree = "<group>"; };
+		BA0E6E3A207413CA002C555E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0E6E3F207413CA002C555E /* WagCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0E6E43207413CA002C555E /* WagCodingChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WagCodingChallengeUITests.m; sourceTree = "<group>"; };
+		BA0E6E45207413CA002C555E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0E6E16207413C9002C555E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0E6E31207413CA002C555E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0E6E3C207413CA002C555E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0E6E10207413C9002C555E = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E1B207413C9002C555E /* WagCodingChallenge */,
+				BA0E6E37207413CA002C555E /* WagCodingChallengeTests */,
+				BA0E6E42207413CA002C555E /* WagCodingChallengeUITests */,
+				BA0E6E1A207413C9002C555E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0E6E1A207413C9002C555E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E19207413C9002C555E /* WagCodingChallenge.app */,
+				BA0E6E34207413CA002C555E /* WagCodingChallengeTests.xctest */,
+				BA0E6E3F207413CA002C555E /* WagCodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0E6E1B207413C9002C555E /* WagCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E1C207413C9002C555E /* AppDelegate.h */,
+				BA0E6E1D207413C9002C555E /* AppDelegate.m */,
+				BA0E6E1F207413C9002C555E /* ViewController.h */,
+				BA0E6E20207413C9002C555E /* ViewController.m */,
+				BA0E6E22207413C9002C555E /* Main.storyboard */,
+				BA0E6E28207413CA002C555E /* Assets.xcassets */,
+				BA0E6E2A207413CA002C555E /* LaunchScreen.storyboard */,
+				BA0E6E2D207413CA002C555E /* Info.plist */,
+				BA0E6E2E207413CA002C555E /* main.m */,
+				BA0E6E25207413C9002C555E /* WagCodingChallenge.xcdatamodeld */,
+			);
+			path = WagCodingChallenge;
+			sourceTree = "<group>";
+		};
+		BA0E6E37207413CA002C555E /* WagCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E38207413CA002C555E /* WagCodingChallengeTests.m */,
+				BA0E6E3A207413CA002C555E /* Info.plist */,
+			);
+			path = WagCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		BA0E6E42207413CA002C555E /* WagCodingChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E43207413CA002C555E /* WagCodingChallengeUITests.m */,
+				BA0E6E45207413CA002C555E /* Info.plist */,
+			);
+			path = WagCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0E6E18207413C9002C555E /* WagCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0E6E48207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallenge" */;
+			buildPhases = (
+				BA0E6E15207413C9002C555E /* Sources */,
+				BA0E6E16207413C9002C555E /* Frameworks */,
+				BA0E6E17207413C9002C555E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WagCodingChallenge;
+			productName = WagCodingChallenge;
+			productReference = BA0E6E19207413C9002C555E /* WagCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA0E6E33207413CA002C555E /* WagCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0E6E4B207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallengeTests" */;
+			buildPhases = (
+				BA0E6E30207413CA002C555E /* Sources */,
+				BA0E6E31207413CA002C555E /* Frameworks */,
+				BA0E6E32207413CA002C555E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0E6E36207413CA002C555E /* PBXTargetDependency */,
+			);
+			name = WagCodingChallengeTests;
+			productName = WagCodingChallengeTests;
+			productReference = BA0E6E34207413CA002C555E /* WagCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA0E6E3E207413CA002C555E /* WagCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0E6E4E207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallengeUITests" */;
+			buildPhases = (
+				BA0E6E3B207413CA002C555E /* Sources */,
+				BA0E6E3C207413CA002C555E /* Frameworks */,
+				BA0E6E3D207413CA002C555E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0E6E41207413CA002C555E /* PBXTargetDependency */,
+			);
+			name = WagCodingChallengeUITests;
+			productName = WagCodingChallengeUITests;
+			productReference = BA0E6E3F207413CA002C555E /* WagCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0E6E11207413C9002C555E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = AVRTech;
+				TargetAttributes = {
+					BA0E6E18207413C9002C555E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BA0E6E33207413CA002C555E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BA0E6E18207413C9002C555E;
+					};
+					BA0E6E3E207413CA002C555E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BA0E6E18207413C9002C555E;
+					};
+				};
+			};
+			buildConfigurationList = BA0E6E14207413C9002C555E /* Build configuration list for PBXProject "WagCodingChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0E6E10207413C9002C555E;
+			productRefGroup = BA0E6E1A207413C9002C555E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0E6E18207413C9002C555E /* WagCodingChallenge */,
+				BA0E6E33207413CA002C555E /* WagCodingChallengeTests */,
+				BA0E6E3E207413CA002C555E /* WagCodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0E6E17207413C9002C555E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0E6E2C207413CA002C555E /* LaunchScreen.storyboard in Resources */,
+				BA0E6E29207413CA002C555E /* Assets.xcassets in Resources */,
+				BA0E6E24207413C9002C555E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0E6E32207413CA002C555E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0E6E3D207413CA002C555E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0E6E15207413C9002C555E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0E6E21207413C9002C555E /* ViewController.m in Sources */,
+				BA0E6E1E207413C9002C555E /* AppDelegate.m in Sources */,
+				BA0E6E2F207413CA002C555E /* main.m in Sources */,
+				BA0E6E27207413C9002C555E /* WagCodingChallenge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0E6E30207413CA002C555E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0E6E39207413CA002C555E /* WagCodingChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0E6E3B207413CA002C555E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0E6E44207413CA002C555E /* WagCodingChallengeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA0E6E36207413CA002C555E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0E6E18207413C9002C555E /* WagCodingChallenge */;
+			targetProxy = BA0E6E35207413CA002C555E /* PBXContainerItemProxy */;
+		};
+		BA0E6E41207413CA002C555E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0E6E18207413C9002C555E /* WagCodingChallenge */;
+			targetProxy = BA0E6E40207413CA002C555E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA0E6E22207413C9002C555E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0E6E23207413C9002C555E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA0E6E2A207413CA002C555E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0E6E2B207413CA002C555E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0E6E46207413CA002C555E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA0E6E47207413CA002C555E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0E6E49207413CA002C555E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESE5F95GWA;
+				INFOPLIST_FILE = WagCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0E6E4A207413CA002C555E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESE5F95GWA;
+				INFOPLIST_FILE = WagCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA0E6E4C207413CA002C555E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESE5F95GWA;
+				INFOPLIST_FILE = WagCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WagCodingChallenge.app/WagCodingChallenge";
+			};
+			name = Debug;
+		};
+		BA0E6E4D207413CA002C555E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESE5F95GWA;
+				INFOPLIST_FILE = WagCodingChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WagCodingChallenge.app/WagCodingChallenge";
+			};
+			name = Release;
+		};
+		BA0E6E4F207413CA002C555E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESE5F95GWA;
+				INFOPLIST_FILE = WagCodingChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WagCodingChallenge;
+			};
+			name = Debug;
+		};
+		BA0E6E50207413CA002C555E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESE5F95GWA;
+				INFOPLIST_FILE = WagCodingChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WagCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0E6E14207413C9002C555E /* Build configuration list for PBXProject "WagCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0E6E46207413CA002C555E /* Debug */,
+				BA0E6E47207413CA002C555E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0E6E48207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0E6E49207413CA002C555E /* Debug */,
+				BA0E6E4A207413CA002C555E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0E6E4B207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0E6E4C207413CA002C555E /* Debug */,
+				BA0E6E4D207413CA002C555E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0E6E4E207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0E6E4F207413CA002C555E /* Debug */,
+				BA0E6E50207413CA002C555E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA0E6E25207413C9002C555E /* WagCodingChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA0E6E26207413C9002C555E /* WagCodingChallenge.xcdatamodel */,
+			);
+			currentVersion = BA0E6E26207413C9002C555E /* WagCodingChallenge.xcdatamodel */;
+			path = WagCodingChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA0E6E11207413C9002C555E /* Project object */;
+}
