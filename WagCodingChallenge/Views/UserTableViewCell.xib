@@ -27,8 +27,8 @@
                             <constraint firstAttribute="height" constant="75" id="crS-mp-KB0"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztt-3B-TaW">
-                        <rect key="frame" x="116" y="15" width="179" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ztt-3B-TaW">
+                        <rect key="frame" x="116" y="15" width="188" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="xwv-4E-O4U"/>
                         </constraints>
@@ -69,7 +69,7 @@
                     <constraint firstAttribute="trailing" secondItem="SP8-P6-RTT" secondAttribute="trailing" constant="16" id="Pk1-R2-Ndj"/>
                     <constraint firstItem="ztt-3B-TaW" firstAttribute="leading" secondItem="3sZ-OX-Xwk" secondAttribute="trailing" constant="25" id="atm-PN-RHQ"/>
                     <constraint firstItem="SP8-P6-RTT" firstAttribute="top" secondItem="ztt-3B-TaW" secondAttribute="bottom" constant="8" id="hY6-LT-mea"/>
-                    <constraint firstAttribute="trailing" secondItem="ztt-3B-TaW" secondAttribute="trailing" constant="25" id="hdp-uO-PGB"/>
+                    <constraint firstAttribute="trailing" secondItem="ztt-3B-TaW" secondAttribute="trailing" constant="16" id="hdp-uO-PGB"/>
                     <constraint firstItem="ztt-3B-TaW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="igi-PR-0KD"/>
                     <constraint firstItem="3sZ-OX-Xwk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="p8q-fe-TMO"/>
                 </constraints>
