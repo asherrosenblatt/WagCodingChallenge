@@ -11,6 +11,7 @@
 #import "User.h"
 #import "UserTableViewCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIView+WebCache.h>
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *mainTableView;
@@ -29,32 +30,16 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    [self getUsersAndImages];
+    [self getUsers];
 }
 
--(void)getUsersAndImages
+-(void)getUsers
 {
     [UserAPI getUsers:^(NSArray *resultArray, NSString *errorString) {
         if (resultArray && !errorString)
         {
             self.users = resultArray;
             [self.mainTableView reloadData];
-            for (User *user in resultArray)
-            {
-                [UserAPI getProfileImageForUser:user :^(NSData *imageData, NSString *errorString) {
-                    if (imageData && !errorString)
-                    {
-                        UIImage *profImg = [UIImage imageWithData:imageData];
-                        user.profileImage = profImg;
-                        [self.mainTableView reloadData];
-                        NSLog(@"image");
-                    }
-                    else
-                    {
-                        NSLog(@"error");
-                    }
-                }];
-            }
         }
         else
         {
@@ -72,17 +57,14 @@
         cell = [[UserTableViewCell alloc] init];
     }
     User *user = [self.users objectAtIndex:indexPath.row];
+    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     cell.usernameLabel.text = user.displayName;
-    //cell.detailTextLabel.text = [NSString stringWithFormat:@"Gold: %@ Silver: %@ Bronze: %@", user.goldBadgeCount, user.silverBadgeCount, user.bronzeBadgeCount];
-    if (user.profileImage == nil)
-    {
-        [cell.imgLoadingIndicator startAnimating];
-    }
-    else
-    {
-        [cell.imgLoadingIndicator stopAnimating];
-        cell.profileImageView.image = user.profileImage;
-    }
+    cell.goldLabel.text = user.goldBadgeCount.stringValue;
+    cell.silverLabel.text = user.silverBadgeCount.stringValue;
+    cell.bronzeLabel.text = user.bronzeBadgeCount.stringValue;
+    [cell.profileImageView sd_setShowActivityIndicatorView:YES];
+    [cell.profileImageView sd_setIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    [cell.profileImageView sd_setImageWithURL:user.profileImgURL placeholderImage:[UIImage imageNamed:@"userImg"]];
     return cell;
 }
 
@@ -93,11 +75,11 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 85;
+    return 95;
 }
 
 -(void)refresh
 {
-    [self getUsersAndImages];
+    [self getUsers];
 }
 @end

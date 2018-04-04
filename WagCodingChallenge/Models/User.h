@@ -14,7 +14,6 @@
 @property (strong, nonatomic) NSNumber *accountId;
 @property (strong, nonatomic) NSNumber *age;
 @property (strong, nonatomic) NSURL *profileImgURL;
-@property (strong, nonatomic) UIImage *profileImage;
 @property (strong, nonatomic) NSNumber *bronzeBadgeCount;
 @property (strong, nonatomic) NSNumber *silverBadgeCount;
 @property (strong, nonatomic) NSNumber *goldBadgeCount;

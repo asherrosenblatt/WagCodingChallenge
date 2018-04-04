@@ -12,5 +12,4 @@
 @interface UserAPI : NSObject
 
 +(void)getUsers :(void(^)(NSArray *resultArray, NSString* errorString))handler;
-+(void)getProfileImageForUser :(User *)user :(void(^)(NSData *imageData, NSString* errorString))handler;
 @end

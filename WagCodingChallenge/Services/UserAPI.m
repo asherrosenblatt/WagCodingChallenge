@@ -53,36 +53,4 @@
         
     }
 }
-
-+(void)getProfileImageForUser :(User *)user :(void(^)(NSData *imageData, NSString* errorString))handler
-{
-    __block NSString *errorStr;
-    
-    NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
-    NSURLSession *session = [NSURLSession sessionWithConfiguration:config delegate:nil delegateQueue:[NSOperationQueue mainQueue]];
-    
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc]
-                                    initWithURL:user.profileImgURL];
-    
-    //[request setHTTPMethod:@"GET"];
-    
-    NSError *error = nil;
-    if (!error) {
-        NSURLSessionDataTask * dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-            NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
-            if (data && !error && [httpResponse statusCode]==200)
-            {
-                handler(data, errorStr);
-            }
-            else
-            {
-                NSLog(@"Eroor getting image data");
-                errorStr = error.localizedDescription;
-                handler(nil, errorStr);
-            }
-        }];
-        [dataTask resume];
-        
-    }
-}
 @end

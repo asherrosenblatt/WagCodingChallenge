@@ -11,5 +11,7 @@
 @interface UserTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
 @property (weak, nonatomic) IBOutlet UILabel *usernameLabel;
-@property UIActivityIndicatorView *imgLoadingIndicator;
+@property (weak, nonatomic) IBOutlet UILabel *goldLabel;
+@property (weak, nonatomic) IBOutlet UILabel *silverLabel;
+@property (weak, nonatomic) IBOutlet UILabel *bronzeLabel;
 @end
