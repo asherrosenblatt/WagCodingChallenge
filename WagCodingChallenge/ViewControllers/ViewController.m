@@ -64,7 +64,7 @@
     cell.bronzeLabel.text = user.bronzeBadgeCount.stringValue;
     [cell.profileImageView sd_setShowActivityIndicatorView:YES];
     [cell.profileImageView sd_setIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    [cell.profileImageView sd_setImageWithURL:user.profileImgURL placeholderImage:[UIImage imageNamed:@"userImg"]];
+    [cell.profileImageView sd_setImageWithURL:user.profileImgURL];
     return cell;
 }
 
