@@ -16,6 +16,10 @@
 		BA0E6E2F207413CA002C555E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E2E207413CA002C555E /* main.m */; };
 		BA0E6E39207413CA002C555E /* WagCodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E38207413CA002C555E /* WagCodingChallengeTests.m */; };
 		BA0E6E44207413CA002C555E /* WagCodingChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E43207413CA002C555E /* WagCodingChallengeUITests.m */; };
+		BA0E6E582074146A002C555E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E572074146A002C555E /* User.m */; };
+		BA0E6E5B20741492002C555E /* UserAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E5A20741492002C555E /* UserAPI.m */; };
+		BA0E6E5F207414BB002C555E /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E5D207414BB002C555E /* UserTableViewCell.m */; };
+		BA0E6E60207414BB002C555E /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0E6E5E207414BB002C555E /* UserTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		BA0E6E3F207413CA002C555E /* WagCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WagCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0E6E43207413CA002C555E /* WagCodingChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WagCodingChallengeUITests.m; sourceTree = "<group>"; };
 		BA0E6E45207413CA002C555E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0E6E562074146A002C555E /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		BA0E6E572074146A002C555E /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BA0E6E5920741492002C555E /* UserAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAPI.h; sourceTree = "<group>"; };
+		BA0E6E5A20741492002C555E /* UserAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserAPI.m; sourceTree = "<group>"; };
+		BA0E6E5C207414BB002C555E /* UserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		BA0E6E5D207414BB002C555E /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		BA0E6E5E207414BB002C555E /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +116,10 @@
 			children = (
 				BA0E6E1C207413C9002C555E /* AppDelegate.h */,
 				BA0E6E1D207413C9002C555E /* AppDelegate.m */,
-				BA0E6E1F207413C9002C555E /* ViewController.h */,
-				BA0E6E20207413C9002C555E /* ViewController.m */,
+				BA0E6E5520741452002C555E /* Models */,
+				BA0E6E5320741421002C555E /* Services */,
+				BA0E6E5220741415002C555E /* ViewControllers */,
+				BA0E6E512074140B002C555E /* Views */,
 				BA0E6E22207413C9002C555E /* Main.storyboard */,
 				BA0E6E28207413CA002C555E /* Assets.xcassets */,
 				BA0E6E2A207413CA002C555E /* LaunchScreen.storyboard */,
@@ -133,6 +146,43 @@
 				BA0E6E45207413CA002C555E /* Info.plist */,
 			);
 			path = WagCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		BA0E6E512074140B002C555E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E5C207414BB002C555E /* UserTableViewCell.h */,
+				BA0E6E5D207414BB002C555E /* UserTableViewCell.m */,
+				BA0E6E5E207414BB002C555E /* UserTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA0E6E5220741415002C555E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E1F207413C9002C555E /* ViewController.h */,
+				BA0E6E20207413C9002C555E /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BA0E6E5320741421002C555E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E5920741492002C555E /* UserAPI.h */,
+				BA0E6E5A20741492002C555E /* UserAPI.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BA0E6E5520741452002C555E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E6E562074146A002C555E /* User.h */,
+				BA0E6E572074146A002C555E /* User.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0E6E60207414BB002C555E /* UserTableViewCell.xib in Resources */,
 				BA0E6E2C207413CA002C555E /* LaunchScreen.storyboard in Resources */,
 				BA0E6E29207413CA002C555E /* Assets.xcassets in Resources */,
 				BA0E6E24207413C9002C555E /* Main.storyboard in Resources */,
@@ -265,6 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0E6E5F207414BB002C555E /* UserTableViewCell.m in Sources */,
+				BA0E6E582074146A002C555E /* User.m in Sources */,
+				BA0E6E5B20741492002C555E /* UserAPI.m in Sources */,
 				BA0E6E21207413C9002C555E /* ViewController.m in Sources */,
 				BA0E6E1E207413C9002C555E /* AppDelegate.m in Sources */,
 				BA0E6E2F207413CA002C555E /* main.m in Sources */,
@@ -440,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ESE5F95GWA;
 				INFOPLIST_FILE = WagCodingChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ESE5F95GWA;
 				INFOPLIST_FILE = WagCodingChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
