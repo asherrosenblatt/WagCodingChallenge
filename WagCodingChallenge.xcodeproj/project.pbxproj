@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		546B2F634ED49AF6895322DC /* libPods-WagCodingChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B3BA3768A20160FA22200C /* libPods-WagCodingChallengeTests.a */; };
+		6EF314E37CF713EA280D1D6F /* libPods-WagCodingChallengeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E535A10D170C1C3FB68B77E2 /* libPods-WagCodingChallengeUITests.a */; };
+		755693B1284AE856FE70A5BD /* libPods-WagCodingChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E548806F234A3A3D75024B0 /* libPods-WagCodingChallenge.a */; };
 		BA0E6E1E207413C9002C555E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E1D207413C9002C555E /* AppDelegate.m */; };
 		BA0E6E21207413C9002C555E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6E20207413C9002C555E /* ViewController.m */; };
 		BA0E6E24207413C9002C555E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0E6E22207413C9002C555E /* Main.storyboard */; };
@@ -40,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E548806F234A3A3D75024B0 /* libPods-WagCodingChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WagCodingChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B3BA3768A20160FA22200C /* libPods-WagCodingChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WagCodingChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C69C94985ABCFDDE3D80159 /* Pods-WagCodingChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagCodingChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WagCodingChallengeTests/Pods-WagCodingChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EFEED919927D270BB7E6751 /* Pods-WagCodingChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagCodingChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WagCodingChallengeUITests/Pods-WagCodingChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		759AFBBD6C8464BB6F5E281D /* Pods-WagCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagCodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-WagCodingChallenge/Pods-WagCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		902B9B49051F9AE98B01F601 /* Pods-WagCodingChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagCodingChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WagCodingChallengeUITests/Pods-WagCodingChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		981BCC0363D7979AD282C651 /* Pods-WagCodingChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagCodingChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WagCodingChallengeTests/Pods-WagCodingChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D9C37E0941F284BE17A2763 /* Pods-WagCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WagCodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WagCodingChallenge/Pods-WagCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		BA0E6E19207413C9002C555E /* WagCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WagCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0E6E1C207413C9002C555E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA0E6E1D207413C9002C555E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +75,7 @@
 		BA0E6E5C207414BB002C555E /* UserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
 		BA0E6E5D207414BB002C555E /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
 		BA0E6E5E207414BB002C555E /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		E535A10D170C1C3FB68B77E2 /* libPods-WagCodingChallengeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WagCodingChallengeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755693B1284AE856FE70A5BD /* libPods-WagCodingChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546B2F634ED49AF6895322DC /* libPods-WagCodingChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +99,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF314E37CF713EA280D1D6F /* libPods-WagCodingChallengeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BC8D000C305FC1BC060DE00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D9C37E0941F284BE17A2763 /* Pods-WagCodingChallenge.debug.xcconfig */,
+				759AFBBD6C8464BB6F5E281D /* Pods-WagCodingChallenge.release.xcconfig */,
+				3C69C94985ABCFDDE3D80159 /* Pods-WagCodingChallengeTests.debug.xcconfig */,
+				981BCC0363D7979AD282C651 /* Pods-WagCodingChallengeTests.release.xcconfig */,
+				902B9B49051F9AE98B01F601 /* Pods-WagCodingChallengeUITests.debug.xcconfig */,
+				3EFEED919927D270BB7E6751 /* Pods-WagCodingChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73E6D5C3CF5D2F8EAE58D5B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E548806F234A3A3D75024B0 /* libPods-WagCodingChallenge.a */,
+				33B3BA3768A20160FA22200C /* libPods-WagCodingChallengeTests.a */,
+				E535A10D170C1C3FB68B77E2 /* libPods-WagCodingChallengeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA0E6E10207413C9002C555E = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +136,8 @@
 				BA0E6E37207413CA002C555E /* WagCodingChallengeTests */,
 				BA0E6E42207413CA002C555E /* WagCodingChallengeUITests */,
 				BA0E6E1A207413C9002C555E /* Products */,
+				6BC8D000C305FC1BC060DE00 /* Pods */,
+				73E6D5C3CF5D2F8EAE58D5B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA0E6E48207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallenge" */;
 			buildPhases = (
+				CE4A6ACB037846ECE9348DC7 /* [CP] Check Pods Manifest.lock */,
 				BA0E6E15207413C9002C555E /* Sources */,
 				BA0E6E16207413C9002C555E /* Frameworks */,
 				BA0E6E17207413C9002C555E /* Resources */,
+				A14F8045AFBB5581F0DDFD85 /* [CP] Embed Pods Frameworks */,
+				83AC1D8256F819938853A4B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA0E6E4B207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallengeTests" */;
 			buildPhases = (
+				EED8797F7D25DA53CD71C839 /* [CP] Check Pods Manifest.lock */,
 				BA0E6E30207413CA002C555E /* Sources */,
 				BA0E6E31207413CA002C555E /* Frameworks */,
 				BA0E6E32207413CA002C555E /* Resources */,
+				22767B4364A1C85033BD95D9 /* [CP] Embed Pods Frameworks */,
+				D5E17828D4184E3388A24DAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA0E6E4E207413CA002C555E /* Build configuration list for PBXNativeTarget "WagCodingChallengeUITests" */;
 			buildPhases = (
+				F4790F88779B56AB2770C149 /* [CP] Check Pods Manifest.lock */,
 				BA0E6E3B207413CA002C555E /* Sources */,
 				BA0E6E3C207413CA002C555E /* Frameworks */,
 				BA0E6E3D207413CA002C555E /* Resources */,
+				756290152FD9D4E5149692E5 /* [CP] Embed Pods Frameworks */,
+				D6D6DB5DB1D952A25241C244 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,6 +359,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22767B4364A1C85033BD95D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagCodingChallengeTests/Pods-WagCodingChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756290152FD9D4E5149692E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagCodingChallengeUITests/Pods-WagCodingChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83AC1D8256F819938853A4B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagCodingChallenge/Pods-WagCodingChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A14F8045AFBB5581F0DDFD85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagCodingChallenge/Pods-WagCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4A6ACB037846ECE9348DC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E17828D4184E3388A24DAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagCodingChallengeTests/Pods-WagCodingChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D6DB5DB1D952A25241C244 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WagCodingChallengeUITests/Pods-WagCodingChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EED8797F7D25DA53CD71C839 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagCodingChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4790F88779B56AB2770C149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WagCodingChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA0E6E15207413C9002C555E /* Sources */ = {
@@ -489,16 +685,14 @@
 		};
 		BA0E6E49207413CA002C555E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9C37E0941F284BE17A2763 /* Pods-WagCodingChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ESE5F95GWA;
 				INFOPLIST_FILE = WagCodingChallenge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,16 +701,14 @@
 		};
 		BA0E6E4A207413CA002C555E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759AFBBD6C8464BB6F5E281D /* Pods-WagCodingChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ESE5F95GWA;
 				INFOPLIST_FILE = WagCodingChallenge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,16 +717,13 @@
 		};
 		BA0E6E4C207413CA002C555E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C69C94985ABCFDDE3D80159 /* Pods-WagCodingChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ESE5F95GWA;
 				INFOPLIST_FILE = WagCodingChallengeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,16 +733,13 @@
 		};
 		BA0E6E4D207413CA002C555E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981BCC0363D7979AD282C651 /* Pods-WagCodingChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ESE5F95GWA;
 				INFOPLIST_FILE = WagCodingChallengeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,15 +749,12 @@
 		};
 		BA0E6E4F207413CA002C555E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902B9B49051F9AE98B01F601 /* Pods-WagCodingChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ESE5F95GWA;
 				INFOPLIST_FILE = WagCodingChallengeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallengeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -581,15 +764,12 @@
 		};
 		BA0E6E50207413CA002C555E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFEED919927D270BB7E6751 /* Pods-WagCodingChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ESE5F95GWA;
 				INFOPLIST_FILE = WagCodingChallengeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AVRTech.WagCodingChallengeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

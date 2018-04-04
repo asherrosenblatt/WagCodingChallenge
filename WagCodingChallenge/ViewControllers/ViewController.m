@@ -10,6 +10,7 @@
 #import "UserAPI.h"
 #import "User.h"
 #import "UserTableViewCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *mainTableView;
